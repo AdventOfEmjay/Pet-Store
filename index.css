@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*navba*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    left: 0;
+    padding: 0px 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.buttons a{
+    padding: 12px 12px;
+    text-decoration: none;
+    color: black;
+}
+.buttons a:hover{
+    border: 1px solid #3366FF;
+    border-radius: 6px;
+    background-color: #3366FF;
+    color: #fff;
+}
+
+/*Hero*/
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+
+}
+.hero-left h5{
+    height: 130px;
+    width: 423px;
+    font-size: 50px;
+    padding: 5px;
+}
+.hero-left p{
+    margin-top: -80px;
+    height: 60px;
+    width: 466px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #2D2D2D;
+}
+.hero-left button{
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 10px;
+    background-color: #F8D57E;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    width: 210px;
+    height: 64px;
+
+}
+.hero-left button:hover{
+    border: 2px solid #F8D57E;
+    background-color: #ECE7FB;
+}
+
+/*Video screen*/
+.video-screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:#F2FAF8;
+    left: 0;
+    right: 0;
+}
+
+/* Icons section */
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
+/* Features */
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 46px;
+    padding-bottom: 46px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.feature-cols{
+    height: 250px;
+    width: 230px;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+.feature-cols img{
+    margin: auto;
+}
+.feature-cols p{
+    font-weight: lighter;
+    color: #2D2D2D;
+    font-size: 14px;
+}
+
+/* Author */
+.author{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECE7FB;
+    padding: 40px;
+}
+.img-ath{
+    height: 410px;
+    width: 380px;
+}
+.img-txt{
+    height: 226px;
+    width: 360px;
+    margin: 20px;
+    font-size: 14px;
+    padding: 20px;
+}
+#athclr{
+    color: gray;
+}
+
+/* Contact */
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #FCFAF5;
+    ;
+}
+.contact-text{
+    height: 300px;
+    width: 380px;
+    margin-right: 40px;
+    padding-left: 10px;
+}
+.contact-img{
+    height: 364px;
+    width: 480px;
+    margin-left: 40px;
+}
+.contact-text h2{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+.contact-text p{
+    color: #2D2D2D;
+    font-size: 14px;
+    height: auto;
+    width: 260px;
+    margin-bottom: 40px;
+}
+.contact-text button{
+    width: 210px;
+    height: 64px;
+    background-color: #F8D57E;
+    padding: 16px 16px;
+    border: 1px solid #F8D57E;
+    text-decoration: none;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.contact-text button:hover{
+    border: 2px solid #F8D57E;
+    background-color: #ECE7FB;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+.right-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rightfooter-cols a{
+    text-decoration: none;
+    color: #2D2D2D;
+    display: block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 13px;
+}
+.rightfooter-cols{
+    padding: 26px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.emailsec input{
+    background-color: #ECE7FB;
+    padding: 10px 10px;
+    width: 264px;
+    height: 32px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    margin-right: 5px;
+    margin-bottom: 32px;
+}
+.emailsec button{
+    padding: 10px 10px;
+    background-color:#3366FF;
+    border-radius: 6px;
+    border: 1px solid #3366FF;
+    color: #F2FAF8;
+}
+.emailsec button:hover{
+    border: 2px solid #3366FF;
+    background-color: #ECE7FB;
+    color: #2D2D2D;
+}
+.emailsec a{
+    text-decoration: none;
+    color: #2D2D2D;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+}
